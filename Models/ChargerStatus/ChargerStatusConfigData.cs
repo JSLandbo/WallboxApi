@@ -1,0 +1,62 @@
+﻿namespace WallboxApi.Models.ChargerStatus;
+
+public class ChargerStatusConfigData
+{
+    public int charger_id { get; set; }
+    public string uid { get; set; }
+    public string serial_number { get; set; }
+    public string name { get; set; }
+    public int locked { get; set; }
+    public int auto_lock { get; set; }
+    public int auto_lock_time { get; set; }
+    public int multiuser { get; set; }
+    public int max_charging_current { get; set; }
+    public string language { get; set; }
+    public int icp_max_current { get; set; }
+    public int grid_type { get; set; }
+    public int energy_price { get; set; }
+    public ChargerStatusEnergycost energyCost { get; set; }
+    public int unlock_user_id { get; set; }
+    public int power_sharing_config { get; set; }
+    public int purchased_power { get; set; }
+    public int show_name { get; set; }
+    public int show_lastname { get; set; }
+    public int show_email { get; set; }
+    public int show_profile { get; set; }
+    public int show_default_user { get; set; }
+    public int gesture_status { get; set; }
+    public int home_sharing { get; set; }
+    public int dca_status { get; set; }
+    public int connection_type { get; set; }
+    public int max_available_current { get; set; }
+    public int live_refresh_time { get; set; }
+    public int update_refresh_time { get; set; }
+    public int owner_id { get; set; }
+    public int remote_action { get; set; }
+    public object rfid_type { get; set; }
+    public int charger_has_image { get; set; }
+    public object sha256_charger_image { get; set; }
+    public ChargerStatusPlan plan { get; set; }
+    public int sync_timestamp { get; set; }
+    public ChargerStatusCurrency currency { get; set; }
+    public string charger_load_type { get; set; }
+    public bool contract_charging_available { get; set; }
+    public ChargerStatusCountry country { get; set; }
+    public object state { get; set; }
+    public string timezone { get; set; }
+    public string part_number { get; set; }
+    public ChargerStatusSoftware software { get; set; }
+    public int available { get; set; }
+    public string operation_mode { get; set; }
+    public string ocpp_ready { get; set; }
+    public object[] tariffs { get; set; }
+    public int mid_enabled { get; set; }
+    public int mid_margin { get; set; }
+    public int mid_margin_unit { get; set; }
+    public string mid_serial_number { get; set; }
+    public int mid_status { get; set; }
+    public int session_segment_length { get; set; }
+    public int group_id { get; set; }
+    public int user_socket_locking { get; set; }
+    public object sim_iccid { get; set; }
+}
